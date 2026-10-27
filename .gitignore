@@ -1,0 +1,18 @@
+# 元データ（大きいので置かない。001.ipynb が初回に自動でダウンロードする）
+data/
+
+# 記事の下書き・作業メモ（公開しない）
+notes/
+
+# Quarto が render 中に作る一時ファイル
+*.quarto_ipynb
+.quarto/
+*_files/
+
+# render 結果（公開用は docs/ にコピーして置く）
+/*.html
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
